@@ -17,4 +17,8 @@
       margin-left: 40px;
     }
   }
+
+  .box.right{
+    flex-direction: row-reverse;
+  }
 }

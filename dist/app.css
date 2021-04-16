@@ -76,3 +76,6 @@ section h2, section p {
 .features .box .box-text {
   margin-left: 40px;
 }
+.features .box.right {
+  flex-direction: row-reverse;
+}
