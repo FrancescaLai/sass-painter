@@ -5,16 +5,39 @@
 }
 
 body {
-  font-size: 18px;
   font-family: "Roboto", sans-serif;
-}
-
-.hero {
-  margin: auto;
-  background-color: pink;
-  height: 600px;
 }
 
 h1, h2, h3, h4 {
   font-size: 35px;
+}
+
+.hero {
+  background-color: pink;
+  height: 500px;
+  position: relative;
+}
+.hero .container-small {
+  max-width: 1280px;
+  background-color: pink;
+  color: #ffff;
+  position: absolute;
+  bottom: 85px;
+  left: 50px;
+}
+
+.btn {
+  color: #ffff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.btn.empty-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.btn.full-btn {
+  background-color: #1473e6;
+  border: 2px solid #1473e6;
 }

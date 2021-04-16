@@ -1,0 +1,14 @@
+.hero{
+  background-color: pink;
+  height: 500px;
+  position: relative;
+
+  .container-small{
+    max-width: $small_container;
+    background-color: pink;
+    color: $white_color;
+    position: absolute;
+    bottom: 85px;
+    left: 50px;
+  }
+}

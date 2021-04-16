@@ -1,0 +1,17 @@
+.btn{
+  color: $white_color;
+  padding: $btn_padding;
+  border-radius: $btn_border_radius;
+  margin-top: 10px;
+  margin-right: 20px;
+
+  &.empty-btn{
+    background-color: transparent;
+    border: $btn_border_empty;
+  }
+
+  &.full-btn{
+    background-color: $blue_color_regular;
+    border: $btn_border_full;
+  }
+}

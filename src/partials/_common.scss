@@ -6,14 +6,3 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-
-.hero{
-  margin: auto;
-  background-color: pink;
-  height: 200px;
-
-  &.container-small{
-    max-width: $small_container;
-    background-color: pink;
-  }
-}
