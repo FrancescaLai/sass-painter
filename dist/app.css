@@ -12,18 +12,30 @@ h1, h2, h3, h4 {
   font-size: 35px;
 }
 
-.hero {
-  background-color: pink;
-  height: 500px;
-  position: relative;
+section h2, section p {
+  text-align: center;
 }
-.hero .container-small {
-  max-width: 1280px;
-  background-color: pink;
+
+.container-small p {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.box-text p {
+  text-align: inherit;
+  margin-top: 15px;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../img/background.png");
+  height: 700px;
+}
+.hero .hero-small {
   color: #ffff;
-  position: absolute;
-  bottom: 85px;
-  left: 50px;
+  padding-bottom: 100px;
+  padding-left: 100px;
 }
 
 .btn {
@@ -33,6 +45,10 @@ h1, h2, h3, h4 {
   margin-top: 10px;
   margin-right: 20px;
 }
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 .btn.empty-btn {
   background-color: transparent;
   border: 2px solid #fff;
@@ -40,4 +56,23 @@ h1, h2, h3, h4 {
 .btn.full-btn {
   background-color: #1473e6;
   border: 2px solid #1473e6;
+}
+
+.container-small {
+  margin: auto;
+  width: 800px;
+  margin-top: 60px;
+}
+
+.features {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 60px;
+}
+.features .box {
+  display: flex;
+  align-items: center;
+}
+.features .box .box-text {
+  margin-left: 40px;
 }

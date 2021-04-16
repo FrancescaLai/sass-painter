@@ -1,0 +1,20 @@
+.container-small{
+  margin: auto;
+  width: $small_container;
+  margin-top: $section_margin_top;
+}
+
+.features{
+  max-width: $container_normal;
+  margin: auto;
+  padding-top: $section_margin_top;
+
+  .box{
+    display: flex;
+    align-items: center;
+
+    .box-text{
+      margin-left: 40px;
+    }
+  }
+}

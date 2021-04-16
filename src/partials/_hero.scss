@@ -1,14 +1,12 @@
 .hero{
-  background-color: pink;
-  height: 500px;
-  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../img/background.png");
+  height: 700px;
 
-  .container-small{
-    max-width: $small_container;
-    background-color: pink;
+  .hero-small{
     color: $white_color;
-    position: absolute;
-    bottom: 85px;
-    left: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
   }
 }

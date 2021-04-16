@@ -8,10 +8,16 @@ $font_regular: 18px;
 $font_big: 35px;
 
 // Containers
-$small_container: 1280px;
+$container_normal: 1200px;
+$small_container: 800px;
 
 //Buttons
 $btn_padding: 10px 25px;
 $btn_border_empty: 2px solid #fff;
 $btn_border_full: 2px solid #1473e6;
 $btn_border_radius: 25px;
+
+
+//Sections
+$section_margin_top: 60px;
+$text_margin_top: 20px;

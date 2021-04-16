@@ -5,6 +5,11 @@
   margin-top: 10px;
   margin-right: 20px;
 
+  &:focus{
+    outline: none;
+    box-shadow: none;
+  }
+
   &.empty-btn{
     background-color: transparent;
     border: $btn_border_empty;
