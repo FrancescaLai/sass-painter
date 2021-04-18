@@ -50,6 +50,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1, h2, h3, h4 {
+  font-size: 35px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -58,6 +62,10 @@ body {
   margin: auto;
   width: 800px;
   margin-top: 60px;
+}
+.container-small p {
+  margin-top: 20px;
+  line-height: 1.5;
 }
 
 .navbar ul li {
@@ -69,25 +77,12 @@ body {
   cursor: pointer;
 }
 
-h1, h2, h3, h4 {
-  font-size: 35px;
-}
-
-.container-small p {
-  margin-top: 20px;
-  line-height: 1.5;
-}
-
-.box-text p {
-  text-align: inherit;
-  margin-top: 15px;
-}
-
 .hero {
   background-image: url("../img/background.png");
   height: 700px;
 }
 .hero .navbar {
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.7);
@@ -166,10 +161,14 @@ h1, h2, h3, h4 {
   width: 45%;
   margin-left: 40px;
 }
-.features .box.right {
+.features .box .box-text p {
+  text-align: inherit;
+  margin-top: 15px;
+}
+.features .right {
   flex-direction: row-reverse;
 }
-.features .box.right .box-text {
+.features .right .box-text {
   margin-left: 0;
   margin-right: 40px;
 }

@@ -1,10 +1,15 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero{
   background-image: url("../img/background.png");
   height: 700px;
 
   .navbar{
-    justify-content: center;
-    align-items: center;
+    @include center;
     background-color: rgba(255, 255, 255, 0.7);
 
     li:first-of-type{

@@ -7,9 +7,6 @@ var app = new Vue({
         immagine: 'img/feature_1.png',
         title: 'Ritocca, sostituisci, assembla, wow!',
         text: 'Realizza ritratti da manuale con soggetti più espressivi, sostituisci il cielo con un clic, rimuovi gli oggetti, applica ritocchi e ricolora una scena. Grazie a strumenti di fotoritocco avanzati e a nuove funzionalità intelligenti per la creazione di effetti magici, puoi trasformare le immagini in opere d’arte.',
-        side: 'left'
-
-
       },
       {
         immagine: 'img/feature_2.png',
@@ -21,7 +18,6 @@ var app = new Vue({
         immagine: 'img/feature_3.png',
         title: 'Mille tocchi di bravura.',
         text: 'Dipingi e disegna con migliaia di pennelli personalizzati o creane di nuovi: con Photoshop hai a disposizione la più grande raccolta al mondo.',
-        side: 'left',
       },
       {
         immagine: 'img/feature_4.png',

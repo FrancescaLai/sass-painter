@@ -3,8 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body{
   font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4{
+  font-size: $font_big;
 }
 
 .text-center{
@@ -15,6 +20,11 @@ body{
   margin: auto;
   width: $small_container;
   margin-top: $section_margin_top;
+
+  p {
+    margin-top: $text_margin_top;
+    line-height: 1.5;
+  }
 }
 
 .navbar ul li{
