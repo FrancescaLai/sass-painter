@@ -6,6 +6,11 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.7);
+
+    li:first-of-type{
+      font-weight: bold;
+      cursor: auto;
+    }
   }
 
   .hero-content{

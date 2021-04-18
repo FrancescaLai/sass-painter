@@ -17,9 +17,12 @@ body{
   margin-top: $section_margin_top;
 }
 
-
 .navbar ul li{
   display: inline;
   padding: 12px;
   font-size: $font_small;
+
+  &:hover{
+    cursor: pointer;
+  }
 }

@@ -8,6 +8,9 @@
   display: flex;
   align-items: center;
 }
+.navbar .logo:hover {
+  cursor: pointer;
+}
 .navbar .logo > img {
   width: 100%;
   margin-right: 5px;
@@ -34,6 +37,7 @@
 }
 .navbar .actions > p:hover {
   color: #1473e6;
+  cursor: pointer;
 }
 
 * {
@@ -61,6 +65,9 @@ body {
   padding: 12px;
   font-size: 14px;
 }
+.navbar ul li:hover {
+  cursor: pointer;
+}
 
 h1, h2, h3, h4 {
   font-size: 35px;
@@ -84,6 +91,10 @@ h1, h2, h3, h4 {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.7);
+}
+.hero .navbar li:first-of-type {
+  font-weight: bold;
+  cursor: auto;
 }
 .hero .hero-content {
   color: #ffff;

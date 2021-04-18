@@ -1,7 +1,5 @@
 .btn{
-  color: $white_color;
-  padding: $btn_padding;
-  border-radius: $btn_border_radius;
+  @include btn;
   margin-top: 20px;
   margin-right: 20px;
 
@@ -34,9 +32,7 @@
 }
 
 .btn-small{
-  color: $white_color;
-  padding: $btn_padding;
-  border-radius: $btn_border_radius;
+  @include btn;
 
   &.full-btn{
     background-color: $blue_color_regular;
