@@ -1,0 +1,42 @@
+ .features{
+  max-width: $container_normal;
+  margin: auto;
+  padding-top: $section_margin_top;
+
+  .box{
+    display: flex;
+    align-items: center;
+
+    .box-img{
+      width: 55%;
+
+      > img{
+        width: 100%;
+      }
+    }
+
+    .box-text{
+      width: 45%;
+      margin-left: 40px;
+    }
+  }
+
+  .box.right{
+    flex-direction: row-reverse;
+
+    .box-text{
+      margin-left: 0;
+      margin-right: 40px;
+    }
+  }
+
+  a{
+    color: $blue_color_regular;
+    display: block;
+    margin-top: $text_margin_top;
+
+    &:hover{
+      color: $blue_color_500;
+    }
+  }
+}

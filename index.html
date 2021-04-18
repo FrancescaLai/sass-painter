@@ -7,24 +7,82 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="dist/app.css">
   <title>Document</title>
 </head>
 <body>
   <div id="root">
+    <!-- Header -->
     <header>
-        <div class="hero">
-          <div class="hero-small">
-            <h2>Crea. Credi in te. Fidati di Photoshop</h2>
-            <p>Accedi a Photoshop su PC e iPad a soli 9,75 €/mese.</p>
-            <button class="btn empty-btn" type="button" name="button">Prova gratuita</button>
-            <button class="btn full-btn" type="button" name="button">Acquista</button>
-          </div>
+      <!-- Top Navbar -->
+      <nav class="navbar">
+        <!-- Adobe Logo -->
+        <div class="logo">
+          <img src="img/adobelogo.png" alt="adobe-logo">
+          <p>Adobe</p>
         </div>
-    </header>
+        <!-- /Adobe Logo -->
 
+        <!-- List -->
+        <ul class="top-list">
+          <li>
+            <span>Creatività e design</span>
+            <i class="fas fa-angle-down"></i>
+          </li>
+          <li>
+            <span>Marketing ed e-commerce</span>
+            <i class="fas fa-angle-down"></i>
+          </li>
+          <li>
+            <span>PDF ed e-signature</span>
+            <i class="fas fa-angle-down"></i>
+          </li>
+          <li>
+            <span>Soluzioni aziendali</span>
+            <i class="fas fa-angle-down"></i>
+          </li>
+          <li>
+            <span>Supporto</span>
+            <i class="fas fa-angle-down"></i>
+          </li>
+        </ul>
+        <!-- /List -->
+
+        <!-- Actions -->
+        <div class="actions">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <p>Accedi</p>
+        </div>
+        <!-- /Actions -->
+      </nav>
+      <!-- Top Navbar -->
+
+      <div class="hero">
+        <nav class="navbar" >
+          <ul>
+            <li>Adobe</li>
+            <li>Funzionalità per iPad</li>
+            <li>Funzionalità</li>
+            <li>Formazione e supporto</li>
+            <li>Versione di prova gratuita</li>
+          </ul>
+          <button class="btn-small full-btn" type="button" name="button">Acquista</button>
+        </nav>
+        <div class="hero-content">
+          <h2>Crea. Credi in te. Fidati di Photoshop</h2>
+          <p>Accedi a Photoshop su PC e iPad a soli 9,75 €/mese.</p>
+          <button class="btn empty-btn" type="button" name="button">Prova gratuita</button>
+          <button class="btn full-btn" type="button" name="button">Acquista</button>
+        </div>
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
     <main>
-      <section>
+      <section class="text-center">
         <div class="container-small">
           <h2>Segui la tua immaginazione, ovunque ti porti.</h2>
           <p>Fotoritocco, composizione, pittura digitale, animazione e progettazione grafica: puoi fare tutto in Photoshop. Dai vita alle idee su PC e iPad, trasforma le immagini come per magia sfruttando la potenza dell'IA, acquisisci nuove competenze e condividi i tuoi progetti in live streaming. L’ultima versione di Photoshop è più veloce, più intelligente e più intuitiva che mai.</p>
@@ -32,7 +90,7 @@
       </section>
       <section class="features">
         <div class="container">
-          <div class="box">
+          <div  class="box">
             <div class="box-img">
               <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/dt_ps_riverflow__4?$pjpeg$&jpegSize=200&wid=660" alt="">
             </div>
@@ -64,8 +122,9 @@
             </div>
             <div class="box-text">
               <h3>Mille tocchi di bravura.</h3>
-              <p>Dipingi e disegna con migliaia di pennelli personalizzati o creane di nuovi: con Photoshop hai a disposizione la più grande raccolta al mondo.</p>
-
+              <p>Dipingi e disegna con migliaia di pennelli personalizzati o creane di nuovi: con Photoshop hai a disposizione la più grande raccolta al mondo.
+                <a href="#">Scopri di più</a>
+              </p>
             </div>
           </div>
         </div>
@@ -85,6 +144,8 @@
       </section>
 
     </main>
+    <!-- /Main -->
+
   </div>
 
   <script src="js/script.js" charset="utf-8"></script>

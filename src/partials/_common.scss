@@ -6,3 +6,20 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+.text-center{
+  text-align: center;
+}
+
+.container-small{
+  margin: auto;
+  width: $small_container;
+  margin-top: $section_margin_top;
+}
+
+
+.navbar ul li{
+  display: inline;
+  padding: 12px;
+  font-size: $font_small;
+}
